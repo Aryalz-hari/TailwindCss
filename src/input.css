@@ -12,3 +12,14 @@
 .font-Lobster {
   font-family: "Lobster", sans-serif;
 }
+body {
+  @apply bg-green-950 text-white tracking-wider;
+}
+
+.nav-link{
+  @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover {
+  @apply text-yellow-500
+}

@@ -1,13 +1,111 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/favicon.ico">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+     <link rel="stylesheet" href="/src/output.css">
+      
+    <title>Plant Website || TailwindCSS </title>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline bg-slate-500 container mx-auto font-Jost">
-    Hello world!
-  </h1>
+
+<body class="font-Jost">
+  
+ <header class="fixed top-0 w-full bg-green-950 z-50">
+  <nav class="container mx-auto flex items-center justify-between h-16 sm:h-20 px-4 relative">
+
+    <!-- Logo -->
+    <div class="font-Lobster text-xl sm:text-2xl">
+      Fresh Plants
+    </div>
+
+    <!-- Nav Menu -->
+    <div
+      id="nav-menu"
+      class="fixed top-0 -left-full w-full min-h-screen
+             bg-green-950/90 backdrop-blur-sm
+             flex items-center justify-center
+             duration-300
+             lg:static lg:min-h-fit lg:bg-transparent lg:w-auto lg:left-0
+             relative"
+    >
+      <ul class="flex flex-col items-center gap-8 lg:flex-row">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#popular" class="nav-link">Popular</a></li>
+        <li><a href="#review" class="nav-link">Review</a></li>
+      </ul>
+
+      <!-- Leaf Images (show only when menu opens) -->
+      <div class="absolute bottom-0 -right-10 opacity-90 lg:hidden">
+        <img class="w-32" src="/assets/img/leaf-1.png" />
+      </div>
+
+      <div class="absolute -top-5 -left-10 rotate-90 opacity-90 lg:hidden">
+        <img class="w-32" src="/assets/img/leaf-2.png" />
+      </div>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="text-2xl cursor-pointer lg:hidden z-50">
+      <i class="ri-menu-line" id="hamburger"></i>
+    </div>
+
+  </nav>
+</header>
+
+
+    <main>
+        <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+        <section id="home">
+
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ Services ~~~~~~~~~~~~~~~-->
+        <div>
+
+        </div>
+
+        <!--~~~~~~~~~~~~~~~ About us ~~~~~~~~~~~~~~~-->
+        <section id="about">
+
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ Popular ~~~~~~~~~~~~~~~-->
+        <section id="popular">
+
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~-->
+        <section id="review">
+
+        </section>
+    </main>
+
+    <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
+    <footer>
+        <!-- newsletter -->
+        
+        <!-- social icon -->
+
+        <!-- content -->
+
+        <!-- copyright -->
+
+        <!-- floral image -->
+    </footer>
+
+    <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+
+    <script src="/src/main.js"></script>
+    
 </body>
+
 </html>
